@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+.pattern{
+    height: 2rem;
+    background: rgb(182,105,234);
+background: linear-gradient(90deg, rgba(182,105,234,1) 0%, rgba(223,126,126,1) 50%, rgba(236,189,123,1) 100%);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Tangerine';
+    font-size: 2rem;
+    font-weight: 800;
+}
