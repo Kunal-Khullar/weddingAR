@@ -3,6 +3,9 @@ import './product.css'
 import Button from 'react-bootstrap/Button'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 const Product = () => {
     return (
         <div>
