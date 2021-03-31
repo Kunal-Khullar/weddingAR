@@ -12,10 +12,10 @@ const Product = () => {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Our Product</Nav.Link>
-      <Nav.Link href="#link">How it Works</Nav.Link>
-      <Nav.Link href="#link">Demo</Nav.Link>
-      <Nav.Link href="#link">Contact</Nav.Link>
+      <Nav.Link className="c1" href="#home">Our Product</Nav.Link>
+      <Nav.Link className="c2" href="#link">How it Works</Nav.Link>
+      <Nav.Link className="c3" href="#link">Demo</Nav.Link>
+      <Nav.Link className="c4" href="#link">Contact</Nav.Link>
      
     </Nav>
    

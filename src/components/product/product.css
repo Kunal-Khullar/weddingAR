@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
 .pattern{
     height: 2rem;
     background: rgb(182,105,234);
@@ -11,4 +13,49 @@ body{
     font-family: 'Tangerine';
     font-size: 2rem;
     font-weight: 800;
+}
+.navbar{
+    padding: 0rem 1rem !important;
+}
+#basic-navbar-nav,.navbar-nav{
+    height: 3.6rem !important;
+    align-items: center !important;
+}
+.c1{
+    font-size: 1.1rem !important;
+    color: #700 !important;
+    font-weight: 400 !important; 
+     transition: background-color 800ms ease-in-out !important;
+ 
+}
+
+.nav-link{
+    padding: 1rem 1rem !important;
+}
+.c1:hover{
+    color: snow !important;
+    background-color:rgb(240, 58, 58) !important; 
+}
+ .c1:focus{
+    
+}
+.c2{
+    font-size: 1.1rem !important;
+    color: burlywood !important;
+    font-weight: 500 !important;
+    text-shadow: 0.5px 0.5px 2px !important;
+    text-transform: capitalize !important;
+}
+.c3{
+
+    color: rebeccapurple !important;
+    font-weight: 600 !important;
+    opacity: 80% !important;
+}
+.c4{
+    font-family: 'Poppins' !important;
+    font-weight: 700 !important;
+    /* text-shadow: 1px 1px -1px; */
+    color: #ba3779 !important;
+    font-size: 1.1rem !important;
 }
