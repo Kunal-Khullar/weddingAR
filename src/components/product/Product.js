@@ -11,32 +11,18 @@ AOS.init();
 const Product = () => {
     return (
         <div>
-            <div className="pattern"></div>
-            <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home">WeddingAR</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="ml-auto">
-      <Nav.Link className="c4" href="#home">Our Product</Nav.Link>
-      <Nav.Link className="c4" href="#link">How it Works</Nav.Link>
-      <Nav.Link className="c4" href="#link">Demo</Nav.Link>
-      <Nav.Link className="c4" href="#link">Contact</Nav.Link>
-     
-    </Nav>
-   
-  </Navbar.Collapse>
-</Navbar>
+           
       <div className="top_container">
-        <Row>
-          <Col className="product_details col-md-8 ">
-            <Row>
-              logo 
-              product name
+        <Row id="#product">
+          <Col  className="product_details col-md-7 ">
+            <Row id="products">
+              <img id="logo" src="https://cdn1.iconfinder.com/data/icons/love-wedding-vol-2/512/wedding_photo_photography_memento-512.png" alt="" />
+              <h1>Product Name</h1>
             </Row>
-            <p>Details</p>
-            <Button>Buy Now</Button>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <Button className="btn1">Buy Now</Button>
           </Col>
-          <Col className="product_gif col-md-4 "></Col>
+          <Col className="product_gif col-md-5 "></Col>
         </Row>
 
       </div>
