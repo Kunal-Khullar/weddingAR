@@ -1,4 +1,4 @@
-import React,{useRef} from 'react'
+import React,{useState} from 'react'
 import './navbar.css'
 // import Button from 'react-bootstrap/Button'
 import Navbar from 'react-bootstrap/Navbar'
@@ -12,20 +12,24 @@ const Navibar = () => {
 // Get the navbar
 // const navbar = useRef(null)
 var myc = "";
-
+const [colorChange, setColorchange] = useState(false);
 // Get the offset position of the navbar
 function myFunction() {
   console.log("sad")
   if (window.pageYOffset >= 40) {
-    console.log("sads")
-    myc += 'sticky'
+    setColorchange(true);
+
+
+  }
+  else{
+    setColorchange(false);
   }
 
 }
     return (
         <div>
              <div className="pattern"></div>
-            <Navbar  className={myc}  bg="light" expand="lg">
+            <Navbar  className={colorChange ? 'sticky' : ''}  bg="light" expand="lg">
   <Navbar.Brand href="#home">WeddingAR</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
