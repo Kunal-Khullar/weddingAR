@@ -1,4 +1,13 @@
 .mid_container{
     height: 60vh;
     background-color: bisque;
+    
+}
+.mid_container h1{
+    font-size: 6rem;
+    font-family: 'TANGERINE';
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px;
+    text-align: center;
+    padding-top: 2rem;
 }

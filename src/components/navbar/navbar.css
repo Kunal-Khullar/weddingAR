@@ -22,6 +22,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.sticky {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
 .navbar-brand{
     font-family: 'Tangerine';
     font-size: 2rem;

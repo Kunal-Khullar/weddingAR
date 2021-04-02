@@ -4,7 +4,7 @@ import {Animated} from "react-animated-css";
 const Working = () => {
     return (
         <div>
-            <div className="mid_container">
+            <div id="works" className="mid_container">
                 <h1>How it works</h1>
             </div>
         </div>

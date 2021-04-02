@@ -6,6 +6,9 @@
 #products{
     align-items:center
 }
+#product{
+    scroll-behavior: smooth;
+}
 .top_container{
     background: rgb(58 63 74) !important;
 }
