@@ -1,5 +1,6 @@
 import React from 'react'
 import './working.css'
+import {Animated} from "react-animated-css";
 const Working = () => {
     return (
         <div>
