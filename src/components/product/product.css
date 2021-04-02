@@ -6,10 +6,17 @@
 #products{
     align-items:center
 }
+.top_container{
+    background: rgb(58 63 74) !important;
+}
 .product_details{
     padding: 2.8rem 4rem;
 }
+.product_gif video{
+    width:100% !important;
+}
 #products h1{
+    color: snow;
     font-size: 3.1rem;
     font-family: 'Tangerine';
     font-weight: bolder;
@@ -23,6 +30,7 @@
     text-align: justify;
     letter-spacing: 2px;
     font-size: 0.9rem;
+    color: snow;
     line-height: 1.8rem;
     margin-top: 2rem;
 }
@@ -31,13 +39,15 @@
     margin-top: 2rem;
     width: 8rem;
     height: 3rem;
-    background: #27ac31db;
-    border: none;
-    outline: 2px solid #27ac31db;
+    
     border-radius: 0;
-    transition:outline-offset 500ms linear;
-    transition: background-color 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out,transform 500ms ease-in-out;
+   
+    
 }
 .btn1:hover{
+    background-color: snow;
+    transform: scale(1.1);
+    color: green;
     
 }
