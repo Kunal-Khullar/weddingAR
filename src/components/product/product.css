@@ -17,6 +17,7 @@
 }
 .product_gif video{
     width:100% !important;
+    margin-top: 1.38rem !important;transform:scale(1.1)
 }
 #products h1{
     color: snow;

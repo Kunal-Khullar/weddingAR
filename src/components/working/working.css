@@ -1,5 +1,5 @@
 .mid_container{
-    height: 60vh;
+    /* height: 60vh; */
     background-color: bisque;
     
 }
@@ -10,4 +10,17 @@
     text-shadow: 1px 1px 1px;
     text-align: center;
     padding-top: 2rem;
+}
+.work_container{
+    display: flex;
+    justify-content:center
+}
+.steps{
+    justify-content:center;
+    text-align:center;
+    width:25%;
+    margin: 2rem 2rem;
+    height: 60vh;
+    border-radius:2rem;
+    box-shadow: 0.5px .5px 10px -4px;
 }
