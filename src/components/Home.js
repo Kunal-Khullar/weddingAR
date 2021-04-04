@@ -3,6 +3,7 @@ import Demo from './demo/Demo'
 import Working from './working/Working'
 import Product from './product/Product'
 import Navibar from './navbar/Navbar'
+import Contact from './navbar/Contact'
 const Home = () => {
     return (
         <div>
@@ -10,6 +11,7 @@ const Home = () => {
             <Product></Product>
             <Working></Working>
             <Demo></Demo>
+            <Contact />
         </div>
     )
 }

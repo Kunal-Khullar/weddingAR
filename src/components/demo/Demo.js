@@ -7,7 +7,7 @@ const Demo = () => {
  
     return (
         <div>
-            <div className="videoplayer">
+            <div id="demos" className="videoplayer">
               
          <div className="video"
             data-aos="fade-down"
