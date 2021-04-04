@@ -3,7 +3,7 @@ import Demo from './demo/Demo'
 import Working from './working/Working'
 import Product from './product/Product'
 import Navibar from './navbar/Navbar'
-import Contact from './navbar/Contact'
+import Contact from './contact/Contact'
 const Home = () => {
     return (
         <div>
