@@ -1,6 +1,6 @@
 #contacts .row{
     background:rgb(218, 226, 248);
-height:40vh;
+height:55vh;
 padding: 2rem;
 }
 .applink{
@@ -9,4 +9,34 @@ padding: 2rem;
     border-radius:5px;
     margin: 1rem .1rem;
     width: 15rem;
+}
+.applink img{
+    width: 25%;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.links{
+    margin-left: 4rem;
+    text-align:left;
+    padding-left: 6px;
+    margin-top: -3rem;color: #fff;
+    font-family: 'Poppins';
+}
+a:hover{
+    text-decoration: none;
+    outline: none;
+    box-shadow: 0
+}
+.applink:hover{
+    box-shadow: 1px 1px 8px -1px #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.links h4{
+    font-size: .9rem;
+    font-weight: 100;
+    line-height: 1.5px;
+}
+.links h2{
+font-size: 1.7rem;
 }

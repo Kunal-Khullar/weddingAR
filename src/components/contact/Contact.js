@@ -11,12 +11,24 @@ const Contact = () => {
             <div id="contacts">
             <Row>
                 <Col id='leftcol'>
-                    <div className='applink'>
+                   <a href="#"> <div className='applink'>
                     <img src="https://img.icons8.com/officel/50/000000/mac-os.png"/>
+                    <div className='links'>
+                    <h4>Available on the </h4>
+                    <h2>App Store</h2>
                     </div>
+                    
+                    </div>
+                    </a>
+                    <a href="#">
                     <div className='applink'>
                     <img src="https://img.icons8.com/dusk/64/000000/google-play.png"/>
+                    <div className='links'>
+                    <h4>GET IT ON </h4>
+                    <h2>Google Play</h2>
                     </div>
+                    </div>
+                    </a>
                 </Col>
                 <Col></Col>
             </Row>
