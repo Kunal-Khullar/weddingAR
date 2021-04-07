@@ -29,9 +29,13 @@ const Contact = () => {
                     </div>
                     </div>
                     </a>
+
                 </Col>
-                <Col></Col>
+                <Col>
+                <div className='links2'></div>
+                </Col>
             </Row>
+            <div className='social'></div>
             </div>
         </div>
     )
