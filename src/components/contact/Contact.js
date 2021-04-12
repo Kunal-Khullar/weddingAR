@@ -32,7 +32,15 @@ const Contact = () => {
 
                 </Col>
                 <Col>
-                <div className='links2'></div>
+                <div className='links3'>
+                    <a href="#">Vision</a>
+                    <a href="#">Team</a>
+                </div>
+                <div className='links2'>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
                 </Col>
             </Row>
             <div className='social'></div>
